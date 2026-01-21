@@ -2,8 +2,6 @@
 
 A curated collection of reusable AI agent skills for indie developers — turning experience into repeatable, high-quality workflows.
 
----
-
 ## Why
 
 Indie developers accumulate valuable experience through building, shipping, and maintaining real products —  
@@ -18,8 +16,6 @@ Common problems:
 **This repository exists to solve that problem.**
 
 `indie-dev-agent-skills` turns real-world indie development experience into **explicit, structured, reusable skills** that AI agents can reliably execute.
-
----
 
 ## What
 
@@ -43,36 +39,66 @@ Skills can cover areas such as:
 - DevOps, release, and operational routines
 - Product, UX, and indie-specific decision flows
 
----
-
 ## Skill Spec
 
 Each skill follows a consistent structure to ensure reliability and reuse.
 
 ### Typical Skill Structure
 
-```md
-# Skill Name
-
-## Metadata
+#### Metadata
 - Name
 - Description
 - Intended usage scenarios
 - Required inputs
 - Expected outputs
 
-## Background Knowledge
+#### Background Knowledge
 - Domain-specific context
 - Assumptions and constraints
 - Non-obvious considerations
 
-## Instructions
+#### Instructions
 - Step-by-step execution logic
 - Decision points and branching rules
 - Quality checks and validation criteria
 
-## References (Optional)
+#### References (Optional)
 - Docs
 - Examples
 - Templates
 - Scripts
+
+### Design Principles
+
+* Prefer **explicit instructions** over vague prompts
+* Optimize for **consistent output quality**
+* Encode **experience, not just information**
+* Assume the skill will be reused by future agents with no prior context
+
+## Contributing
+
+Contributions are welcome.
+
+This repository values:
+
+* Real-world experience over theoretical completeness
+* Clear structure over clever wording
+* Practical workflows over generic advice
+
+### How to Contribute
+
+1. Fork the repository
+2. Add a new skill following the existing spec
+3. Keep skills focused and scoped
+4. Submit a pull request with a clear description
+
+### What Makes a Good Skill
+
+* Solves a recurring real problem
+* Can be reused across projects
+* Encodes decisions, not just steps
+* Improves agent reliability and output quality
+
+## License
+
+MIT License
